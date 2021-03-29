@@ -13,8 +13,7 @@ public class Main_13706 {
 		BigInteger tempMul = BigInteger.ZERO;
 		BigInteger zero = BigInteger.ZERO;
 		BigInteger tempCopy = temp;
-		
-		
+	
 		while(true) {
 			res = (zero.add(tempCopy)).divide(two);
 			tempMul = res.multiply(res);
